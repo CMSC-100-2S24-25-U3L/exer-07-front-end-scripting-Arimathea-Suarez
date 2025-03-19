@@ -31,11 +31,11 @@ main {
 }
 
 
-/* ✅ Form Styling */
+/* For the form styling */
 form {
     display: flex;
     flex-direction: row;
-    gap: 12px;  /* Adds space between input fields */
+    gap: 12px;  /* This adds space between input fields */
     width: auto;
     margin-left: 0;
     align-items: center;
@@ -51,11 +51,11 @@ input {
 
 input:focus {
     outline: none;
-    border-color: #007bff;  /* Highlights input on focus */
+    border-color: #007bff;  /* It highlights input on focus */
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-
+/* The submit button */
 button {
     padding: 14px;
     font-size: 18px;
@@ -79,14 +79,14 @@ button:active {
 }
 
 
-/* ✅ Food Cards Layout */
+/* The food Cards layout */
 .food-card {
     position: relative;
     width: 200px;
     padding: 15px;
     border-radius: 8px;
     text-align: center;
-    background: #ddd; /* ✅ Gray background */
+    background: #ddd; /* A Gray background */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,7 +100,7 @@ button:active {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    background: white; /* ✅ Matches the image */
+    background: white; 
     display: block;
     padding: 10px;
 }
