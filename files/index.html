@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorite Foods</title>
+
+    <!-- Link for external CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <!-- Sidebar -->
+        <!-- For the sidebar -->
         <aside class="sidebar">
             <ul>
                 <li>FAVORITE FOOD</li>
@@ -18,9 +20,9 @@
             </ul>
         </aside>
 
-        <!-- Main Content -->
+        <!-- The main content -->
         <main>
-            <!-- ✅ Form Section (ABOVE Content) -->
+            <!-- The Form Section (ABOVE the Content) -->
             <form id="foodForm">
                 <input type="text" id="foodName" placeholder="Food Name" required>
                 <input type="text" id="foodDesc" placeholder="Description" required>
@@ -29,11 +31,12 @@
                 <button type="submit">Add Food</button>
             </form>
 
-            <!-- ✅ Initially EMPTY food cards section -->
+            <!-- The Initialized EMPTY food cards section -->
             <div id="foodCards" class="food-container"></div>
         </main>
     </div>
 
+    <!-- Link for the form submission and DOM manipulation -->
     <script src="form.js"></script>
 </body>
 </html>
