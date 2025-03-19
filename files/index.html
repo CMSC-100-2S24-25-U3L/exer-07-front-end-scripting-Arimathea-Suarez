@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul>
+                <li>FAVORITE FOOD</li>
+                <li>FAVORITE SONGS</li>
+                <li>FAVORITE QUOTES</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- ✅ Form Section (ABOVE Content) -->
+            <form id="foodForm">
+                <input type="text" id="foodName" placeholder="Food Name" required>
+                <input type="text" id="foodDesc" placeholder="Description" required>
+                <input type="text" id="foodImg" placeholder="Image URL" required>
+                <input type="number" id="foodRank" placeholder="Rank" min="1" required>
+                <button type="submit">Add Food</button>
+            </form>
+
+            <!-- ✅ Initially EMPTY food cards section -->
+            <div id="foodCards" class="food-container"></div>
+        </main>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
