@@ -88,18 +88,23 @@ button:active {
     text-align: center;
     background: #ddd; /* A Gray background */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    overflow: hidden;
 }
 
 .food-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 20px;
 
 }
 
 .food-card img {
     width: 100%;
-    height: auto;
+    height: 150px;
     border-radius: 5px;
+    object-fit: cover;
     background: white; 
     display: block;
     padding: 10px;
@@ -113,6 +118,13 @@ button:active {
 .food-card p {
     font-size: 14px;
     color: #333;
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+    padding: 5px;
+    overflow-wrap: break-word;
+
+
 }
 
 .rank-box {
